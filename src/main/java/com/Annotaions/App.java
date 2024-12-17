@@ -1,0 +1,19 @@
+package com.Annotaions;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+        context.scan("com.Annotaions");
+        context.refresh();
+        Saikumar object = context.getBean("saiObject",Saikumar.class);
+        System.out.println(object);
+    }
+}
