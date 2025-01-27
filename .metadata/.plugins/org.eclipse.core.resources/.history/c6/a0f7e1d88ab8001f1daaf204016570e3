@@ -1,0 +1,13 @@
+package com.results.config;
+
+
+import com.results.beans.Saikumar;
+
+public class saiConfig {
+
+	
+	public void hello() {
+		ref.toString();
+	}
+	
+}

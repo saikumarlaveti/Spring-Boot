@@ -1,0 +1,9 @@
+package com.results.beans;
+
+public class Saikumar {
+	
+	public void greet(String name) {
+		System.out.println(name);
+	}
+
+}

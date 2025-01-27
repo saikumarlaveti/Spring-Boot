@@ -1,0 +1,30 @@
+package com.Crud.services;
+
+import java.util.List;
+
+import com.Crud.delete.Student;
+import com.Crud.repo.deleteOperations;
+
+public class ServicesImpl implements Services{
+
+	public deleteOperations ref;
+
+	@Override
+	public void saveStudent(List<Student> s) {
+		ref.saveAll(s);
+		
+	}
+	
+
+	@Override
+	public void deleteUsingID(int id) {
+		ref.deleteById(id);
+	}
+
+
+	@Override
+	public void removeAllStudent() {
+		ref.deleteAll();
+	}
+
+}

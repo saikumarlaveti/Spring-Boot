@@ -1,0 +1,9 @@
+package com.results.beans;
+
+public class Saikumar {
+	int id;
+	String name;
+	int age;
+	
+	
+}

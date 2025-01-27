@@ -1,0 +1,21 @@
+package com.results.beans;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.results")
+public class Saikumar {
+	int id;
+	String name;
+	int age;
+	@Override
+	@Bean(name="showing")
+	public void display() {
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(age);
+	}
+
+}

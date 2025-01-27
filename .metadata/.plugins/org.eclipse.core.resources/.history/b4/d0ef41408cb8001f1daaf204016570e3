@@ -1,0 +1,12 @@
+package com.results.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("by")
+public class Lokesh {
+	
+	public void wish() {
+		System.out.println("Hello");
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.results.beans;
+
+public class Saikumar {
+
+	int id;
+	String name;
+	int age;
+	@Override
+	public String toString() {
+		return "Saikumar [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
+	public void name() {
+		System.out.println(name+" ");
+	}
+	
+}

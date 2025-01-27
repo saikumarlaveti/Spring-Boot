@@ -1,0 +1,20 @@
+#spring.application.name=YamlFile
+
+my:
+  book:
+    bookId: 1
+    name: power of now
+your:
+  student:
+    names:
+      - Saikumar
+      - Santosh 
+      - Hari
+    versions:
+      1: firstVersion
+      2: secondVersion
+      3: thirdVersion
+    book:
+      bookId: 2
+      name: automatic habit
+      

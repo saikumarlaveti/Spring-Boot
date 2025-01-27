@@ -1,0 +1,26 @@
+package com.sa.beans;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("greet") //bean id
+public class WishMessageGenetor {
+	@Autowired
+	private LocalDateTime ldt;
+	
+	public String wish(String name) {
+		int hour = ldt.getHour();
+		
+		if(hour<12) 
+			return "Good Morning- " + name;
+		else if(hour<16)
+			return "Good Evening- " + name;
+		else if(hour<20)
+			return "Good Afternoon- " + name;
+		else {
+			return "Good Night- " + name;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package com.results.beans;
+
+public class Lokesh implements Students {
+	int id;
+	String name;
+	int age;
+	@Override
+	Lokesh()
+	public void display() {
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(age);
+		
+	}
+	
+	
+}

@@ -1,0 +1,24 @@
+package com.Crud.Test;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.Crud.Entity.Student;
+import com.Crud.Repo.Crud;
+
+@Component
+public class Runner implements CommandLineRunner{
+	
+	@Autowired
+	private Crud ref;
+
+	@Override
+	public void run(String... args) throws Exception {
+		Student s1 = new Student(1,"Saikumar",23);
+		ref.save(s1);
+		
+		
+	}
+
+}

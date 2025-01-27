@@ -1,0 +1,7 @@
+package com.results.beans;
+
+public class Lokesh {
+	int id;
+	String name;
+	int age;
+}

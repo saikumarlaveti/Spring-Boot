@@ -1,0 +1,21 @@
+package com.results.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("vehile")
+public class Vehile {
+	public Engine ref;
+	
+	@Autowired
+	public void Vehicle(Engine ref){
+		this.ref = ref;
+	}
+	
+	public void display(String start,String end) {
+		System.out.println("Journey Start at :" + start);
+		ref.start();
+		System.out.println("Journey Start at :" +  end);
+		ref.end();
+	}
+}

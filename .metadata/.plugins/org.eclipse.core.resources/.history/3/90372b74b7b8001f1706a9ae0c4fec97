@@ -1,0 +1,17 @@
+package com.results.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Vehile {
+	public Engine ref;
+	
+	@Autowired
+	public void Vehicle(Engine ref){
+		this.ref = ref;
+	}
+	
+	public void display(String start,String end) {
+		ref.start();
+		ref.end();
+	}
+}

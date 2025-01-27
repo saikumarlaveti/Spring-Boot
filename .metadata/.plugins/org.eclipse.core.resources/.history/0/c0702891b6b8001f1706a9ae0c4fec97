@@ -1,0 +1,17 @@
+package com.results.beans;
+
+public class Petrol implements Engine {
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void end() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

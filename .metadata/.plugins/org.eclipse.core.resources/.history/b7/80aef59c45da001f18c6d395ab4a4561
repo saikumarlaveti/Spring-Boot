@@ -1,0 +1,12 @@
+package com.Crud.services;
+
+import java.util.List;
+
+import com.Crud.delete.Student;
+
+public interface Services {
+	
+	public void saveStudent(List<Student> s);
+	public void deleteUsingID(int id);
+
+}

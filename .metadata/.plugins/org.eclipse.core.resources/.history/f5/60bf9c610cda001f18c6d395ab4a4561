@@ -1,0 +1,5 @@
+package com.Crud.repo;
+
+public interface deleteOperations {
+
+}

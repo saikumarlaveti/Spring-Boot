@@ -1,0 +1,18 @@
+package com.results.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("diesel")
+public class Diesel implements Engine {
+
+	@Override
+	public void start() {
+		System.out.println("petrol Diesel started");		
+	}
+
+	@Override
+	public void end() {
+		System.out.println("petrol Diesel ended");		
+	}
+
+}

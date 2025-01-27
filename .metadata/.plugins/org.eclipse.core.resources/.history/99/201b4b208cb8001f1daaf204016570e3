@@ -1,0 +1,9 @@
+package com.results.beans;
+
+public class Lokesh {
+	
+	public void wish() {
+		System.out.println("Hello");
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.Crud.Test;
+
+import org.springframework.boot.CommandLineRunner;
+
+import com.Crud.delete.Student;
+import com.Crud.repo.deleteOperations;
+
+public class Runner implements CommandLineRunner {
+
+	private deleteOperations  service;
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Student std = new Student(1,"Saikumar",2000,"Saikumarlaveti@gmail.com","MCA");
+		service.save(std);
+		
+		
+	}
+
+}

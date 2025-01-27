@@ -1,0 +1,20 @@
+package com.results.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component()
+public class Lokesh {
+	
+	@Autowired
+	public Saikumar ref;
+	Lokesh(Saikumar ref){
+		this.ref  = ref;
+	}
+	
+	public void wish() {
+		System.out.println("Hello Saikumar");
+		ref.greet("This is Saikumar Laveti");
+	}
+
+}

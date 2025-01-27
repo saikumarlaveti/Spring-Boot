@@ -1,0 +1,10 @@
+package com.results.beans;
+
+public interface Students {
+	
+	public static  int id = 0;
+	public static String name = " ";
+	public static int age = 0;
+	
+	public void display();
+}

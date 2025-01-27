@@ -1,0 +1,26 @@
+package com.results.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Saikumar {
+
+	int id;
+	String name;
+	int age;
+	@Autowired
+	public Lokesh ref;
+	
+	
+	@Override
+	public String toString() {
+		return "Saikumar [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
+	public void name() {
+		System.out.println(name+" ");
+		ref.wish();
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+package com.Crud.Test;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.Crud.delete.Student;
+import com.Crud.repo.deleteOperations;
+@Component
+public class Runner implements CommandLineRunner {
+	@Autowired
+	private deleteOperations  service;
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Student std = new Student(1,"Saikumar",2000,"Saikumarlaveti@gmail.com","MCA");
+		service.save(std);
+		
+		
+	}
+
+}

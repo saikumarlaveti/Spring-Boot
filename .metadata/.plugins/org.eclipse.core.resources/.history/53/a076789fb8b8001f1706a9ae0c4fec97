@@ -1,0 +1,20 @@
+package com.results.test;
+
+import org.springframework.beans.BeansException;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.results.beans.Vehile;
+
+public class maintest {
+	public static void main(String[] args) {
+	try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("AppConfig")) {
+		Vehile ve =context.getBean("Yes",Vehile.class);
+		ve.display("Guravam", "Rajam");
+	} catch (BeansException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+}
+
+}

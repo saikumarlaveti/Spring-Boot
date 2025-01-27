@@ -1,0 +1,6 @@
+package com.Crud.Repo;
+
+import org.springframework.data.repository.*;
+public interface Crud extends CrudRepository<Student, Integer>{
+
+}

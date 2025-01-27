@@ -1,0 +1,13 @@
+package com.results.beans;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component()
+public class Saikumar {
+	
+	public void greet(String name) {
+		System.out.println(name);
+	}
+
+}

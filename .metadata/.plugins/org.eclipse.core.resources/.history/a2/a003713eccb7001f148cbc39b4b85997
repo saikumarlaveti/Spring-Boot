@@ -1,0 +1,18 @@
+package com.sa.test;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import com.sa.beans.WishMessageGenetor;
+import com.sa.config.AppConfig;
+
+public class DependentManagementTest {
+
+	public static void main(String[] args) {
+
+	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+	//ApplicationContext context = new ClassPathXmlApplicationContext(AppConfig.class);
+	WishMessageGenetor genetor = context.getBean("greet",WishMessageGenetor.class);
+	String name = genetor.wish();
+	System.out.println(name);	
+	context.close();
+}
+}

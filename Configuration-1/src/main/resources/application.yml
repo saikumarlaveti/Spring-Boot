@@ -1,0 +1,10 @@
+#spring.application.name=Configuration-1
+#
+#my.app.id=40
+#my.app.name=saikumar
+#
+my:
+  app:
+    id: 40
+    name: saikumar
+    age: 24

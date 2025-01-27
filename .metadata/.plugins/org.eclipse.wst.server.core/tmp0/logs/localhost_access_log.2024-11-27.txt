@@ -1,0 +1,6 @@
+127.0.0.1 - - [27/Nov/2024:12:39:44 +0530] "GET / HTTP/1.1" 404 755
+0:0:0:0:0:0:0:1 - - [27/Nov/2024:12:39:45 +0530] "GET /SpringMvc/WEB-INF/classes/com/demo/controller/test.java HTTP/1.1" 404 686
+0:0:0:0:0:0:0:1 - - [27/Nov/2024:12:39:45 +0530] "GET /favicon.ico HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [27/Nov/2024:12:39:56 +0530] "GET /SpringMvc/api4 HTTP/1.1" 200 160
+0:0:0:0:0:0:0:1 - - [27/Nov/2024:12:40:38 +0530] "GET /SpringMvc/api4 HTTP/1.1" 200 160
+0:0:0:0:0:0:0:1 - - [27/Nov/2024:12:40:46 +0530] "GET /SpringMvc/api1 HTTP/1.1" 200 160

@@ -1,0 +1,16 @@
+package com.results.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.results.beans.Vehile;
+
+public class maintest {
+	public static void main(String[] args) {
+	ApplicationContext  context = new AnnotationConfigApplicationContext("AppConfig");
+	Vehile ve =context.getBean("Yes",Vehile.class);
+	ve.display("Guravam", "Rajam");
+
+}
+
+}
