@@ -23,8 +23,14 @@ public class Runner implements CommandLineRunner {
 		std.findByNameEquals(name).forEach(System.out::println);
 		
 		System.out.println("-----------------And---------------------");
-		Integer age = 1;
-		std.findByNameAndId(name,age).forEach(System.out::println);
+		Integer Id = 1;
+		std.findByNameAndId(name,Id).forEach(System.out::println);
+		
+		System.out.println("----------multiple conditions------------");
+		Integer age = 22;
+		std.findByIdAndAgeGreaterThan(Id, age).forEach(System.out::println);;
+		
+		
 		
 		
 	}

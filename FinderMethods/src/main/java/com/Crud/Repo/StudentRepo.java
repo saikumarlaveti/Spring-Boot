@@ -11,5 +11,10 @@ public interface StudentRepo extends JpaRepository<Student, Integer> {
 	//select *from  student where name=?
 	public List<Student> findByNameEquals(String name);
 	
-	public List<Student> findByNameAndId(String name , Integer Age);
+	//select *from student where name=? and id =?
+	public List<Student> findByNameAndId(String name , Integer Id);
+	
+	public List<Student> findByIdAndAgeGreaterThan(Integer id,Integer age);
+	
+	
 }

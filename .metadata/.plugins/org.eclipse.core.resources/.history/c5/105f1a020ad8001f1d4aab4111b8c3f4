@@ -1,7 +1,0 @@
-package com.Crud.RepoImpl;
-
-public interface CrudRepo {
-	
-	public long fetchCount();
-
-}
