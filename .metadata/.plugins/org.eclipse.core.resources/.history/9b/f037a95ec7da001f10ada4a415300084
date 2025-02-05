@@ -1,9 +1,0 @@
-package com.Crud.repo;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.Crud.delete.Student;
-
-public interface deleteOperations extends JpaRepository<Student, Integer>{
-
-}

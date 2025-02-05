@@ -21,6 +21,7 @@ public class Student {
 	private String name;
 	
 	@Column(name="age")
+	//@Transient  
 	private Integer age;
 	
 	public Student() {
