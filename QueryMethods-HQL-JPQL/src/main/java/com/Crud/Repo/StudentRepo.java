@@ -25,5 +25,11 @@ public interface StudentRepo extends JpaRepository<Student, Integer> {
 	
 	@Query("from Student where id <= :id")
 	public List<Student> searchById(int id);
+	
+	@Query("select name from Student where id = :id")
+	public String FindNameUsingId(int id);
+	
+	@Query("select max(age),min(age),avg(age),count(*),sum(age) from Student")
+	public Object fetchAggregateDataonStudents();
 }
 
