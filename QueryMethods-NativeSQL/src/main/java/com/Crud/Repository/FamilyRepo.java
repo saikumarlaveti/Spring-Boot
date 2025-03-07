@@ -22,5 +22,9 @@ public interface FamilyRepo extends JpaRepository<Family, Integer>{
 	@Query(value="create table temp(id int)",nativeQuery=true)
 	@Modifying
 	public int createTable();
+	
+	@Query(value="insert into family values(?,?,?,?)",nativeQuery=true)
+	@Modifying
+	public int insertValues(int id,int age,int d_year,String name);
 
 }

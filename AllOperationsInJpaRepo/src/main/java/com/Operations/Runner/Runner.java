@@ -8,15 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.Operations.BookRepo;
 import com.Operations.Entity.Books;
+import com.Operations.Repo.BookRepo;
 
 // This Runner have only Curd operations --> Okay
 //1.save
 //2.saveAll
 //3.Read
 //4.update
-@Component
+//@Component
 public class Runner implements CommandLineRunner{
 
 	@Autowired
