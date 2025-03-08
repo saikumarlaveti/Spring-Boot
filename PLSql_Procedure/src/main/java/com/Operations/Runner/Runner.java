@@ -15,14 +15,15 @@ public class Runner implements CommandLineRunner{
 	public EntityManager manager;
 	@Override
 	public void run(String... args) throws Exception {
+		//getFamilyName --> stored procedure name
 		 StoredProcedureQuery query = manager.createStoredProcedureQuery("getFamilyName");
-
+		 	
 	        // Register IN and OUT Parameters
 	        query.registerStoredProcedureParameter(1, Integer.class, ParameterMode.IN);
 	        query.registerStoredProcedureParameter(2, String.class, ParameterMode.OUT);
 
 	        // Set IN Parameter
-	        query.setParameter(1, 2);
+	        query.setParameter(1, 3);
 
 	        // Execute the Procedure
 	        query.execute();
