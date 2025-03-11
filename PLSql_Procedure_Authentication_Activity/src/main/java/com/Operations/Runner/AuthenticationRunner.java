@@ -21,7 +21,7 @@ public class AuthenticationRunner implements CommandLineRunner {
 		query.registerStoredProcedureParameter(3,String.class,ParameterMode.OUT);
 		
 		query.setParameter(1,"Saikumar");
-		query.setParameter(2, "pass1234");
+		query.setParameter(2, "pass12345");
 		query.execute();
 		
 		String result = (String) query.getOutputParameterValue(3);
