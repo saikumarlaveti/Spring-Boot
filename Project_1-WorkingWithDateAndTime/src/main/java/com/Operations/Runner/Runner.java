@@ -33,11 +33,7 @@ public class Runner implements CommandLineRunner{
 				LocalDateTime.of(2026, 01,02,10,30));
 		manager.personRegister(p1);
 		manager.fetchDetails().forEach(r->System.out.println(r));		
-		
-		
-
-		
-		
+			
 	}
 
 }
