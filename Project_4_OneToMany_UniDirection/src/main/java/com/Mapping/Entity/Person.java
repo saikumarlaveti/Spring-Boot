@@ -33,7 +33,7 @@ public class Person implements Serializable{
 	
 	public int age;
 	
-	//public Long ph_Number;
+	
 	
 	@OneToMany(targetEntity = PhoneNumber.class,cascade = CascadeType.ALL,fetch=FetchType.LAZY)
 	@JoinColumn(name="Person_Id",referencedColumnName="Pid")

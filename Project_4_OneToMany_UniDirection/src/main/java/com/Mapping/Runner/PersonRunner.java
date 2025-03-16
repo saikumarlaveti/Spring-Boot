@@ -17,12 +17,7 @@ public class PersonRunner implements CommandLineRunner {
 	private ServiceImpl service;
 	@Override
 	public void run(String... args) throws Exception {
-//		Person p = new Person();
-//		p.setAge(23);
-//		p.setPname("Saikumar");
-//		p.setPh_Number(7995663051L);
-//		p.setPh_Number(8501905061L);
-		
+
 		PhoneNumber p1 = new PhoneNumber();
 		p1.setPhoneNumber(7995663051L);
 		p1.setProvider("Jio");

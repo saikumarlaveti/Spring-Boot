@@ -1,21 +1,28 @@
 package com.DataJpa.Entity;
 
+import java.io.Serializable;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
-@Table(name = "courses")
-public class Courses {
+@Table(name="Courses")
+@Setter
+@Getter
+public class Courses implements Serializable{
+	
 	@Id
-	@Column(name = "CourseId")
-	private Integer courserId;
-	@Column(name = "CourseName")
-	private String courserName;
+	public int c_Id;
+	
+	@Column(length=20)
+	public String Subjects;
+	
+	
+	
+	
 
 }
