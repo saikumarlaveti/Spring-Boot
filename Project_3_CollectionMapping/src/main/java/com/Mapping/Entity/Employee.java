@@ -33,23 +33,23 @@ public class Employee {
     @Column(length = 20)
     public String ename;
 
-    //@ElementCollection
-    @CollectionTable(name = "Employee_Friends", joinColumns = @JoinColumn(name = "Emp_Id"))
+    @ElementCollection
+    @CollectionTable(name = "Employee_Friends", joinColumns = @JoinColumn(name = "Emp_Id",referencedColumnName="EID"))
     @OrderColumn(name = "Friend_INDX")
     @ListIndexBase(value = 1)
-    @ElementCollection(fetch = FetchType.EAGER) 
+    //@ElementCollection(fetch = FetchType.EAGER) 
     public List<String> friends;
 
-    //@ElementCollection
-    @CollectionTable(name = "Employee_PhoneNumbers", joinColumns = @JoinColumn(name = "Emp_Id"))
+    @ElementCollection
+    @CollectionTable(name = "Employee_PhoneNumbers", joinColumns = @JoinColumn(name = "Emp_Id",referencedColumnName="EID"))
     @Column(name = "Phone_Number")
-    @ElementCollection(fetch = FetchType.EAGER) 
+    //@ElementCollection(fetch = FetchType.EAGER) 
     public Set<Long> phoneNumbers;
 
-   // @ElementCollection
-    @CollectionTable(name = "Employee_ID_Details", joinColumns = @JoinColumn(name = "Emp_Id"))
+    @ElementCollection
+    @CollectionTable(name = "Employee_ID_Details", joinColumns = @JoinColumn(name = "Emp_Id",referencedColumnName="EID"))
     @MapKeyColumn(name = "ID_Type")
     @Column(name = "ID_Number")
-    @ElementCollection(fetch = FetchType.EAGER) 
+    //@ElementCollection(fetch = FetchType.EAGER)
     public Map<String, Integer> idDetails;
 }
