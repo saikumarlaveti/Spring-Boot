@@ -26,4 +26,9 @@ public class PhoneNumber implements Serializable{
 	@Column(length=20)
 	public String provider;
 
+	@Override
+	public String toString() {
+		return "PhoneNumber [regId=" + regId + ", phoneNumber=" + phoneNumber + ", provider=" + provider + "]";
+	}
+
 }

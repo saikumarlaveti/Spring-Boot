@@ -18,20 +18,21 @@ public class PersonRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		PhoneNumber p1 = new PhoneNumber();
-		p1.setPhoneNumber(7995663051L);
-		p1.setProvider("Jio");
+//		PhoneNumber p1 = new PhoneNumber();
+//		p1.setPhoneNumber(7995663051L);
+//		p1.setProvider("Jio");
+//		
+//		PhoneNumber p2 = new PhoneNumber();
+//		p2.setPhoneNumber(8501905061L);
+//		p2.setProvider("Airtel");
+//		
+//		Person per = new Person();
+//		per.setPname("Saikumar Laveti");
+//		per.setAge(23);
+//		per.setPhoneInfo(Set.of(p1,p2));
 		
-		PhoneNumber p2 = new PhoneNumber();
-		p2.setPhoneNumber(8501905061L);
-		p2.setProvider("Airtel");
-		
-		Person per = new Person();
-		per.setPname("Saikumar Laveti");
-		per.setAge(23);
-		per.setPhoneInfo(Set.of(p1,p2));
-		
-		System.out.println(service.saveDataUsingParent(per));
+		String result = service.deleteParentAndItsChild(1004);
+		System.out.println(result);
 	}
 
 }

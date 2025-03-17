@@ -38,4 +38,16 @@ public class Person implements Serializable{
 	@OneToMany(targetEntity = PhoneNumber.class,cascade = CascadeType.ALL,fetch=FetchType.LAZY)
 	@JoinColumn(name="Person_Id",referencedColumnName="Pid")
 	public Set<PhoneNumber> phoneInfo;
+
+
+
+	@Override
+	public String toString() {
+		return "Person [pid=" + pid + ", pname=" + pname + ", age=" + age + "]";
+	}
+
+
+	
+	
+	
 }
