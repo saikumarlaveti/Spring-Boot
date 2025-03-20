@@ -1,7 +1,5 @@
 package com.MongoCrud.document;
 
-import java.util.Map;
-import java.util.Set;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,30 +10,35 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @Document
+@AllArgsConstructor
+@NoArgsConstructor
 @Setter
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
+@RequiredArgsConstructor
 public class Person {
 
 	@Id
-	@NonNull
 	public String id;
 	
 	@NonNull
 	public String name;
 	
 	@NonNull
-	public int age;
+	public String address;
 	
-	@NonNull
-	public String course;
+	public DrivingLicense licenseDetails;
+
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + ", address=" + address + "]";
+	}
 	
 	
-	public DrivingLicence licenceDetails;
 	
 	
 	

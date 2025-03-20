@@ -1471,3 +1471,804 @@ Binding(ALT+SHIFT+D R,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-03-20 09:30:23.337 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-20 09:30:27.569
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.apache.felix.scr 4 0 2025-03-20 09:30:29.370
+!MESSAGE bundle org.apache.felix.scr:2.2.12 (814) Circular reference detected trying to get service {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=260, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=47}
+ stack of references: ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=260, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=47}
+ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectRegistry}={service.id=253, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.registry.MavenProjectManager, component.id=50}
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.embedder.MavenModelManager (35)] reference [projectManager]
+
+!STACK 0
+java.lang.Exception: stack trace
+	at org.apache.felix.scr.impl.ComponentRegistry.enterCreate(ComponentRegistry.java:493)
+	at org.apache.felix.scr.impl.BundleComponentActivator.enterCreate(BundleComponentActivator.java:735)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:901)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.getServiceObject(BindMethod.java:675)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.prebind(DependencyManager.java:441)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.field.FieldHandler$ReferenceMethodImpl.getServiceObject(FieldHandler.java:552)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.prebind(DependencyManager.java:1414)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:776)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:117)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:117)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:521)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1080)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:594)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.apache.felix.scr 4 0 2025-03-20 09:30:29.381
+!MESSAGE bundle org.apache.felix.scr:2.2.12 (814) Circular reference detected trying to get service {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=260, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=47}
+ stack of references: ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=260, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=47}
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.internal.project.registry.MavenProjectManager (50)] reference [MavenProjectChangedListener]
+ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectRegistry}={service.id=253, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.registry.MavenProjectManager, component.id=50}
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.embedder.MavenModelManager (35)] reference [projectManager]
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.embedder.MavenModelManager (35)] reference [projectManager]
+ServiceReference: {org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager}={service.id=251, service.bundleid=288, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager, component.id=52}
+
+!STACK 0
+java.lang.Exception: stack trace
+	at org.apache.felix.scr.impl.ComponentRegistry.enterCreate(ComponentRegistry.java:493)
+	at org.apache.felix.scr.impl.BundleComponentActivator.enterCreate(BundleComponentActivator.java:735)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:901)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.getServiceObject(BindMethod.java:675)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.prebind(DependencyManager.java:441)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.field.FieldHandler$ReferenceMethodImpl.getServiceObject(FieldHandler.java:552)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.prebind(DependencyManager.java:1414)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.field.FieldHandler$ReferenceMethodImpl.getServiceObject(FieldHandler.java:552)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.prebind(DependencyManager.java:1414)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:776)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:117)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:117)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:521)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1080)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:594)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-20 09:30:29.761
+!MESSAGE Logback config file: C:\Users\Saikumar\eclipse-workspace\SpringMvc\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-20 09:30:30.561
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-20 09:30:30.561
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-20 09:30:31.251
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-20 09:30:31.251
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 09:30:36.476
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Saikumar/eclipse-workspace/SpringMvc/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742443236475
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Saikumar\eclipse\java-2024-06\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:36.476
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 09:30:36.492
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 18208
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-20 09:30:37.823
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saikumar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:38.350
+!MESSAGE Boot project ADDED: Project_1Mongodb_CurdOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:38.352
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:38.358
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:38.359
+!MESSAGE Boot project ADDED: Project_2_Mongodb_FinderMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:38.362
+!MESSAGE Boot project ADDED: Project_3_Mongodb_Collections
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 09:30:38.363
+!MESSAGE Boot project ADDED: Project_4_Mongodb_Mapping
+
+!ENTRY org.eclipse.jface 2 0 2025-03-20 09:30:39.387
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-20 09:30:39.387
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-20 09:30:39.387
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 09:53:01.473
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalStateException: must specify at least one linked position
+	at org.eclipse.jface.text.link.LinkedModeModel.enforceNotEmpty(LinkedModeModel.java:530)
+	at org.eclipse.jface.text.link.LinkedModeModel.install(LinkedModeModel.java:484)
+	at org.eclipse.jface.text.link.LinkedModeModel.forceInstall(LinkedModeModel.java:441)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:109)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:191)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:228)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1215)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:721)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5796)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1972)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5363)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4783)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:158)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:2135)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5176)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 09:55:31.529
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalStateException: must specify at least one linked position
+	at org.eclipse.jface.text.link.LinkedModeModel.enforceNotEmpty(LinkedModeModel.java:530)
+	at org.eclipse.jface.text.link.LinkedModeModel.install(LinkedModeModel.java:484)
+	at org.eclipse.jface.text.link.LinkedModeModel.forceInstall(LinkedModeModel.java:441)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:109)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:191)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:228)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1215)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:721)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5796)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1972)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5363)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4783)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:158)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:2135)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5176)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 09:56:03.901
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalStateException: must specify at least one linked position
+	at org.eclipse.jface.text.link.LinkedModeModel.enforceNotEmpty(LinkedModeModel.java:530)
+	at org.eclipse.jface.text.link.LinkedModeModel.install(LinkedModeModel.java:484)
+	at org.eclipse.jface.text.link.LinkedModeModel.forceInstall(LinkedModeModel.java:441)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:109)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:191)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:228)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:561)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$4.widgetSelected(AbstractAnnotationHover.java:532)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1215)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:721)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5796)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1972)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5363)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4783)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:158)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:2135)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5176)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 09:56:15.835
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 11:36:44.721
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:44:33.268
+!MESSAGE Classpath changed for project: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:44:33.269
+!MESSAGE Boot project REMOVED: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.280
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.288
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.291
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.293
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.294
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.296
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.299
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.300
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.301
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.302
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.305
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.306
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.308
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.308
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:44:33.310
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Project_4_Mongodb_Mapping does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2611)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2352)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2395)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-20 11:44:33.311
+!MESSAGE Project_4_Mongodb_Mapping does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:45:14.674
+!MESSAGE Classpath changed for project: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 11:45:14.678
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:45:31.208
+!MESSAGE Classpath changed for project: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:17.261
+!MESSAGE Classpath changed for project: Project_3_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:20.687
+!MESSAGE Classpath changed for project: Project_3_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:20.688
+!MESSAGE Boot project ADDED: Project_3_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:31.296
+!MESSAGE Classpath changed for project: Project_1Mongodb_CurdOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:31.298
+!MESSAGE Boot project REMOVED: Project_1Mongodb_CurdOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:31.299
+!MESSAGE Classpath changed for project: Project_2_Mongodb_FinderMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:31.299
+!MESSAGE Boot project REMOVED: Project_2_Mongodb_FinderMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:31.301
+!MESSAGE Classpath changed for project: Project_3_Mongodb_Collections
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 11:46:31.301
+!MESSAGE Boot project REMOVED: Project_3_Mongodb_Collections
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 11:49:06.109
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 12:02:38.473
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 12:09:52.800
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 12:12:38.191
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 13:22:05.850
+!MESSAGE Classpath changed for project: Project_3_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 13:22:05.851
+!MESSAGE Boot project REMOVED: Project_3_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 13:22:05.852
+!MESSAGE Classpath changed for project: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 13:22:09.581
+!MESSAGE Classpath changed for project: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 13:22:09.601
+!MESSAGE Boot project ADDED: Project_4_Mongodb_Mapping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 13:22:09.857
+!MESSAGE Classpath changed for project: Project_4_Mongodb_Mapping
