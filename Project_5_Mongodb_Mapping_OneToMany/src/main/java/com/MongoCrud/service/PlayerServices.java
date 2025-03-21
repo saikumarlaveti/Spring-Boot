@@ -8,7 +8,4 @@ public interface PlayerServices {
 
 	public String PlayerRegister(Player p);
 	
-//	public String SportRegister(Sport s);
-//	
-//	public String MedalRegister(Medal m);
 }

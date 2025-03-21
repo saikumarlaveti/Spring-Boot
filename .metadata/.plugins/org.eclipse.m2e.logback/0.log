@@ -7740,3 +7740,286 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.DateAndTi
 2025-03-20 15:39:51,363 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-03-20 15:39:51,371 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-03-20 15:39:51,375 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_5_Mongodb_Mapping_OneToMany\src\test\resources
+2025-03-20 15:41:31,280 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 15:41:31,290 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 15:41:31,389 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_5_Mongodb_Mapping_OneToMany\src\test\resources
+2025-03-20 18:11:36,231 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-20 18:11:36,270 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-20 18:11:36,275 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_5_Mongodb_Mapping_OneToMany\src\test\resources
+2025-03-21 07:28:15,777 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-21 07:36:36,589 [Worker-42: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Crud:Project_1Mongodb_CurdOperations:0.0.1-SNAPSHOT @ C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_1Mongodb_CurdOperations\pom.xml.
+2025-03-21 07:37:53,971 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Crud:Project_1Mongodb_CurdOperations:0.0.1-SNAPSHOT @ C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\pom.xml.
+2025-03-21 07:37:55,717 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:37:55,739 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:37:55,747 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:37:56,309 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:37:56,312 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:37:56,315 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:44:16,369 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:44:16,380 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:44:16,385 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:44:20,836 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:44:20,847 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:44:20,851 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:44:24,777 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:44:24,785 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:44:24,789 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:47:03,440 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:47:03,449 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:47:03,454 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:48:08,862 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:48:08,867 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:48:08,871 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:48:38,288 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:48:38,295 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:48:38,297 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:49:29,755 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:49:29,763 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:49:29,766 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:51:53,951 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:51:53,957 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:51:53,959 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:52:05,856 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:52:05,861 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:52:05,864 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:52:21,762 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:52:21,766 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:52:21,770 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:52:40,598 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:52:40,604 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:52:40,606 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:53:04,815 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:53:04,820 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:53:04,823 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:53:26,406 [Worker-48: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:53:26,411 [Worker-48: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:53:26,415 [Worker-48: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:53:39,225 [Worker-46: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:53:39,232 [Worker-46: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:53:39,236 [Worker-46: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:54:00,521 [Worker-51: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:54:00,526 [Worker-51: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:54:00,529 [Worker-51: Launching Project_6_MongoDb_QueryMethods - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:58:59,831 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:58:59,839 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:58:59,841 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:59:09,880 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:59:09,887 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:59:09,889 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 07:59:40,707 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 07:59:40,713 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 07:59:40,716 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:00:07,224 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:00:07,230 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:00:07,234 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:01:09,488 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:01:09,495 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:01:09,497 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:07:09,694 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:07:09,702 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:07:09,704 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:07:24,789 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:07:24,797 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:07:24,799 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:08:00,684 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:08:00,691 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:08:00,694 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:08:35,923 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:08:35,930 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:08:35,934 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:09:22,402 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:09:22,406 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:09:22,408 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:10:17,391 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:10:17,396 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:10:17,400 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:11:15,556 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:11:15,562 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:11:15,566 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:11:47,793 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:11:47,799 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:11:47,801 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:16:55,753 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:16:55,760 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:16:55,763 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:17:31,294 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:17:31,307 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:17:31,313 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:18:07,870 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:18:07,875 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:18:07,878 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:20:28,083 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:20:28,088 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:20:28,091 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:20:38,030 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:20:38,036 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:20:38,040 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:20:50,652 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:20:50,657 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:20:50,661 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:21:36,364 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:21:36,372 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:21:36,375 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:22:29,207 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:22:29,214 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:22:29,217 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:22:55,904 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:22:55,909 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:22:55,912 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:26:09,247 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:26:09,252 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:26:09,256 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:26:34,791 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:26:34,798 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:26:34,800 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:27:35,336 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:27:35,344 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:27:35,347 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:28:07,010 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:28:07,020 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:28:07,022 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:28:36,632 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:28:36,639 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:28:36,641 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:29:04,504 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:29:04,509 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:29:04,512 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_6_MongoDb_QueryMethods\src\test\resources
+2025-03-21 08:35:00,575 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Crud:Project_1Mongodb_CurdOperations:0.0.1-SNAPSHOT @ C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\pom.xml.
+2025-03-21 08:35:01,218 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:35:01,288 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:35:01,295 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:35:01,783 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:35:01,786 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:35:01,791 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:41:14,172 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:41:14,179 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:41:14,181 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:42:01,748 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:42:01,758 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:42:01,760 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:42:06,404 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:42:06,428 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:42:06,434 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:45:38,656 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:45:38,665 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:45:38,667 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:45:42,352 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:45:42,363 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:45:42,365 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:46:01,540 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:46:01,549 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:46:01,551 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:47:10,606 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:47:10,615 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:47:10,619 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:48:05,079 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:48:05,085 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:48:05,088 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:48:38,129 [Worker-49: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:48:38,134 [Worker-49: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:48:38,136 [Worker-49: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:49:02,543 [Worker-81: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:49:02,549 [Worker-81: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:49:02,552 [Worker-81: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:50:30,545 [Worker-79: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:50:30,555 [Worker-79: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:50:30,558 [Worker-79: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:50:53,450 [Worker-84: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:50:53,458 [Worker-84: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:50:53,461 [Worker-84: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:56:10,081 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:56:10,095 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:56:10,100 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:56:27,739 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:56:27,753 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:56:27,758 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:56:42,184 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:56:42,222 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:56:42,230 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:57:07,526 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:57:07,535 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:57:07,538 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 08:57:45,250 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 08:57:45,258 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 08:57:45,263 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:01:51,252 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:01:51,264 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:01:51,268 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:02:23,054 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:02:23,066 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:02:23,071 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:02:45,070 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:02:45,080 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:02:45,085 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:03:00,424 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:03:00,437 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:03:00,442 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:03:33,495 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:03:33,509 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:03:33,512 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:04:31,499 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:04:31,505 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:04:31,508 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:04:52,240 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:04:52,246 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:04:52,249 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:05:08,562 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:05:08,572 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:05:08,578 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:05:36,867 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:05:36,874 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:05:36,876 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 09:05:44,132 [Worker-88: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 09:05:44,140 [Worker-88: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 09:05:44,144 [Worker-88: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:06:56,895 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:06:56,913 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:06:56,917 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:07:05,010 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:07:05,023 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:07:05,027 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:07:31,195 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:07:31,206 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:07:31,211 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:08:15,562 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:08:15,575 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:08:15,578 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:08:24,699 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:08:24,710 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:08:24,714 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:08:55,737 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:08:55,745 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:08:55,749 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:09:17,320 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:09:17,329 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:09:17,332 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:09:21,361 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:09:21,371 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:09:21,373 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:10:03,483 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:10:03,490 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:10:03,494 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:23:11,469 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:23:11,480 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:23:11,483 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:28:05,468 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:28:05,480 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:28:05,486 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:28:19,832 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:28:19,844 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:28:19,849 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:28:49,042 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:28:49,052 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:28:49,055 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:29:18,865 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:29:18,872 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:29:18,875 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:29:59,643 [Worker-106: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:29:59,651 [Worker-106: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:29:59,655 [Worker-106: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:30:45,178 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:30:45,185 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:30:45,188 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
+2025-03-21 11:32:22,265 [Worker-102: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-21 11:32:22,280 [Worker-102: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-21 11:32:22,285 [Worker-102: Launching Project_7_MongoDb_RegularEx - Project1MongodbCurdOperationsApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Saikumar\eclipse-workspace\SpringMvc\Project_7_MongoDb_RegularEx\src\test\resources
